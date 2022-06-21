@@ -2,7 +2,9 @@
 
 {% set query %}
 
-{# place your different create udfs macro here *}
+{{ create_example_udf() }};
+
+{# add more udfs macros here *}
 
 {% endset %}
 
